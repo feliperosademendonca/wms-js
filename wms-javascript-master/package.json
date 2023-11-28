@@ -1,0 +1,37 @@
+{
+  "name": "WMS Javascript",
+  "version": "1.0.0",
+  "description": "*Sistema de gerenciamento de armazém em javascript em desenvolvimento*",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feliperosademendonca/mapaEstante.git"
+  },
+  "author": "felipe rosa de mendonca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feliperosademendonca/mapaEstante/issues"
+  },
+  "homepage": "https://github.com/feliperosademendonca/mapaEstante#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "body-parser": "^1.20.2",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "googleapis": "^128.0.0",
+    "instascan": "^1.0.0",
+    "jquery": "^3.6.3",
+    "jsdom": "^20.0.3",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.20",
+    "quagga": "^0.12.1",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {}
+}
